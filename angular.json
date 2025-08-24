@@ -27,7 +27,13 @@
               }
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
+            ],
+             "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/jquery/dist/jquery.min.js"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",
@@ -35,6 +41,7 @@
               "entry": "src/server.ts"
             }
           },
+         
           "configurations": {
             "production": {
               "budgets": [
@@ -92,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a8033327-dd2d-40f8-9b68-abb3fcc95070"
   }
 }
